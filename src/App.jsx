@@ -1,5 +1,3 @@
-
-import './App.css'
 import './index.css'
 import Converter from './components/Converter/Converter'
 import Heor from './components/Hero/Heor'
