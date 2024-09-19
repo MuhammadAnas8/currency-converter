@@ -1,0 +1,2 @@
+color pallete:
+#00305e #5098be #6eb0b7 #b8d7eb
