@@ -35,13 +35,13 @@ const Converter = () => {
   const swap = (e) => {
     e.preventDefault();
 
-  // Swap country
-  setFromCountry(toCountry);
-  setToCountry(fromCountry);
+    // Swap country
+    setFromCountry(toCountry);
+    setToCountry(fromCountry);
 
-  // Swap currency
-  setFromCurrency(toCurrency);
-  setToCurrency(fromCurrency);
+    // Swap currency
+    setFromCurrency(toCurrency);
+    setToCurrency(fromCurrency);
   };
   const handleFromChange = (e) => {
     setFromCountry(countryList[e]);
@@ -82,7 +82,7 @@ const Converter = () => {
             >
               {Object.entries(countryList).map(([curr, code, index]) => {
                 return (
-                  <option key={code} value={curr} >
+                  <option key={code} value={curr}>
                     {curr}
                   </option>
                 );
